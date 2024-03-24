@@ -1,5 +1,3 @@
-
-
 ![](./screen-caps/01Homepage.jpeg)
 Admin Login
 
@@ -19,13 +17,14 @@ User Login
 }
 ```
 
-(Stripe) Card Payment Details 
+(Stripe) Card Payment Details
 
 ```
 4000 0027 6000 3184
 Any future Date
 Any three digit
 ```
+
 ![](./screen-caps/02RegistrationPage.jpeg)
 ![](./screen-caps/03LoginPage.jpeg)
 ![](./screen-caps/04CartPage.jpeg)
@@ -47,6 +46,7 @@ Any three digit
 ![](./screen-caps/20UpdateProductPage.jpeg)
 ![](./screen-caps/21Search&Filter.jpeg)
 ![](./screen-caps/stripe.jpeg)
+
 ## Usage
 
 - Create a .env file inside backend/config.
