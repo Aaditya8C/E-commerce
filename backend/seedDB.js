@@ -6,14 +6,14 @@ connectDatabase();
 
 const products = [
   {
-    name: "Laptop",
+    name: "Lenovo Ideapad",
     price: 999,
     description: "High-performance laptop for gaming and productivity",
     ratings: 4.5,
     images: [
       {
         public_id: "image1",
-        url: "https://example.com/image1.jpg",
+        url: "https://imgs.search.brave.com/Ks_iLTtGYqC1KvlYJJN2XR1qjeJ86ZzGtpVxVZ8FWhg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDc5/ODYyMzU3L3Bob3Rv/L2EtbGVub3ZvLWlk/ZWFwYWQtejUwMC10/b3VjaC1nYW1pbmct/bGFwdG9wLXBob3Rv/Z3JhcGhlZC1vbi1h/LXdoaXRlLWJhY2tn/cm91bmQtdGFrZW4t/b24tanVseS0zLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1z/Vlp3UGFubWZVRElR/TkhzX3JUX2h3MTBM/OHY0UVU5QmU0MC1O/a1hUdWFnPQ",
       },
       {
         public_id: "image2",
@@ -41,14 +41,14 @@ const products = [
     user: "660056387d3f93d347630b3a",
   },
   {
-    name: "Smartphone",
+    name: "Samsung Galaxy F12",
     price: 799,
     description: "High-quality smartphone with advanced features",
     ratings: 4.2,
     images: [
       {
         public_id: "image3",
-        url: "https://example.com/image3.jpg",
+        url: "https://imgs.search.brave.com/jazrFp5LO5FF2ZgYL7tmOBnwVEVLRRcrrALSv-N74pg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvOGJh/YTYxNWYtMDQwYy00/NWVhLThlMDMtNjky/Y2Y4MDMzNzVmLjcx/ZjRjMmYxZGFiMDg2/NzU1NjhlYjlhMmQ3/MDgzZGVkLmpwZWc_/b2RuSGVpZ2h0PTc4/NCZvZG5XaWR0aD01/ODAmb2RuQmc9RkZG/RkZG",
       },
       {
         public_id: "image4",
@@ -76,14 +76,14 @@ const products = [
     user: "660056387d3f93d347630b3a",
   },
   {
-    name: "Headphones",
+    name: "Boat Airdopes",
     price: 149,
     description: "Wireless headphones with noise-cancelling technology",
     ratings: 4.8,
     images: [
       {
         public_id: "image5",
-        url: "https://example.com/image5.jpg",
+        url: "https://imgs.search.brave.com/xirftWtOnht3byNh2Bd95mKK3b6mZ0WmTjn_n6CznRw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ydWtt/aW5pbTIuZmxpeGNh/cnQuY29tL2ltYWdl/LzQxNi80MTYveGlm/MHEvaGVhZHBob25l/LzUvZy83Ly1vcmln/aW5hbC1pbWFncWhz/d3FyeDdzbjN3Lmpw/ZWc_cT03MA",
       },
       {
         public_id: "image6",
@@ -111,14 +111,14 @@ const products = [
     user: "660056387d3f93d347630b3a",
   },
   {
-    name: "Camera",
+    name: "Canon DSLR",
     price: 1299,
     description: "Professional DSLR camera for photography enthusiasts",
     ratings: 4.7,
     images: [
       {
         public_id: "image7",
-        url: "https://example.com/image7.jpg",
+        url: "https://imgs.search.brave.com/C8rbORuiSL0mgJpeWGBsP0OIpSGYsGIpfZvKCGE9VvM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy84/LzhlL0VPU182NTBE/LmpwZw",
       },
       {
         public_id: "image8",
@@ -146,14 +146,14 @@ const products = [
     user: "660056387d3f93d347630b3a",
   },
   {
-    name: "Smart Watch",
+    name: "Noise Smart Watch",
     price: 199,
     description: "Advanced smartwatch with fitness tracking features",
     ratings: 4.4,
     images: [
       {
         public_id: "image11",
-        url: "https://example.com/image11.jpg",
+        url: "https://imgs.search.brave.com/Ctf1_Vn-x01PKi1IjlJgJfWH-V0WPZXzDeEpscuitCQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ydWtt/aW5pbTIuZmxpeGNh/cnQuY29tL2ltYWdl/LzMwMC8zMDAveGlm/MHEvc21hcnR3YXRj/aC94LzkvNC8tb3Jp/Z2luYWwtaW1hZ3Rk/cWtoejN4ZGtkdC5q/cGVnP3E9OTA",
       },
       {
         public_id: "image12",
@@ -188,7 +188,7 @@ const products = [
     images: [
       {
         public_id: "image13",
-        url: "https://example.com/image13.jpg",
+        url: "https://imgs.search.brave.com/DmV9o-GLAS1k4nWUYsSEm_DXtdec8XmVEzbQtLw30-0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFrVnViNytNYUwu/anBn",
       },
       {
         public_id: "image14",
@@ -223,7 +223,7 @@ const products = [
     images: [
       {
         public_id: "image15",
-        url: "https://example.com/image15.jpg",
+        url: "https://imgs.search.brave.com/mBPXu4ddk7jqxjkF2YxXx19AjjzWnVb4cNYhMQx4WgY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Y25ldC5jb20vYS9p/bWcvcmVzaXplL2Yx/NDQzMGFkOTU4ZWY3/OGFiNWZhZGUyZTRj/NjU5NDc3NWVhN2Vm/OWEvaHViLzIwMTgv/MDIvMTUvMzk3OTM0/ZjQtODJkOC00NGJm/LTlkYTAtZmNkOGI4/MjgzZGVjL2JnLXNt/YXJ0LXNwZWFrZXJz/LTIwLmpwZz9hdXRv/PXdlYnAmd2lkdGg9/NzY4",
       },
       {
         public_id: "image16",

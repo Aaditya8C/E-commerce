@@ -6,6 +6,11 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background-color: rgb(242, 242, 242);
+}
+
+iframe {
+  width: 100vw;
 }
 
 /* Scroll Bar */
@@ -32,12 +37,12 @@ body {
 }
 
 nav {
-  background-color: #232f3e;
+  background-color: #1e0049;
   padding: 1rem 1rem;
 }
 
 #search_btn {
-  background-color: #febd69;
+  background-color: #ffba61;
 }
 
 .input-group {

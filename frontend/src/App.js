@@ -155,7 +155,10 @@ function App() {
           exact
         />
 
-        {!loading && (!isAuthenticated || user.role !== "admin") && <Footer />}
+        {!loading && (!isAuthenticated || user.role !== "admin") && (
+          // <iframe src="./components/layout/Sample.html" />
+          <Footer />
+        )}
       </div>
     </Router>
   );
