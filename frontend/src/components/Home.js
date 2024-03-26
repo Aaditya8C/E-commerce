@@ -73,7 +73,6 @@ const Home = ({ match }) => {
       ) : (
         <Fragment>
           <MetaData title={"Buy Best Products Online"} />
-
           <h1
             id="products_heading"
             style={{
